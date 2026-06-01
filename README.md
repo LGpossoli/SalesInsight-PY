@@ -35,8 +35,6 @@ salesinsight-py/
 |       |-- vendas_por_mes.png
 |       |-- top_5_produtos_por_receita.png
 |       |-- distribuicao_regioes.png
-|-- planejamento/
-    |-- tarefas-kanban.md
 ```
 
 ## Como executar
@@ -59,6 +57,14 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 3. Abra o arquivo `salesinsight.ipynb`.
 4. Execute todas as celulas do notebook.
+
+### Como script Python
+
+Tambem e possivel exportar o notebook para `salesinsight.py` e executar o pipeline pelo terminal:
+
+```bash
+python salesinsight.py
+```
 
 ## Dependencias utilizadas
 
@@ -168,7 +174,7 @@ O desenvolvimento foi organizado usando Kanban, com tarefas distribuidas entre a
 
 As tarefas contemplam leitura do dataset, limpeza, transformacoes, metricas, visualizacoes, classes, heranca, exportacoes, documentacao e demonstracao final.
 
-Link do Kanban: inserir aqui o link do GitHub Projects, Trello, Notion ou arquivo equivalente.
+Link do Kanban: https://github.com/users/LGpossoli/projects/1
 
 ## Versionamento
 
@@ -181,7 +187,7 @@ Branches sugeridas:
 - `feat/pipeline-dados`
 - `docs/readme`
 
-Link do repositorio: inserir aqui o link do GitHub.
+Link do repositorio: https://github.com/LGpossoli/SalesInsight-PY
 
 ## Video de demonstracao
 
@@ -198,7 +204,6 @@ Link do video: inserir aqui o link do Google Drive ou YouTube nao listado.
 
 ## Melhorias futuras
 
-- Criar um arquivo `.py` alem do notebook para execucao direta no terminal.
 - Ler o JSON exportado com `json.load()` para validar a gravacao.
 - Criar uma funcao de ordem superior que receba outra funcao como parametro.
 - Adicionar testes automatizados para validar as etapas do pipeline.
