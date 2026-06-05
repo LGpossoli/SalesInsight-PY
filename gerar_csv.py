@@ -49,6 +49,8 @@ def gerar_dataset_vendas(n_registros=200, seed=42):
  
 # Gerar e salvar 
 df_bruto = gerar_dataset_vendas() 
-df_bruto.to_csv("C:/Users/lugul/Downloads/SCTEC/Mini-Projeto/vendas.csv", index=False) 
+df_bruto.to_csv("vendas.csv", index=False, sep=";")         
+# Separador ";" evita conflito com vírgulas em valores numéricos (padrão pt-BR)
+# e facilita a leitura automática pelo Excel em configurações regionais brasileiras
 print(f"Dataset gerado com {len(df_bruto)} registros.") 
 print(df_bruto.head())
