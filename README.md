@@ -209,6 +209,6 @@ Link do video: inserir aqui o link do Google Drive ou YouTube nao listado.
 - Adicionar testes automatizados para validar as etapas do pipeline.
 - Consumir dados de uma API externa em vez de usar apenas arquivo local.
 
-## Autor
+## Autores
 
-Projeto desenvolvido para a disciplina de IA para Analise Preditiva por Luis Gustavo da Silva.
+Projeto desenvolvido para a disciplina de IA para Analise Preditiva por Luis Gustavo da Silva, Acacia Rosar e Raphael Antonio dos Santos Pires.
